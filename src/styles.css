@@ -15,15 +15,15 @@ h3 {
 }
 
 h1 {
-  font-size: 96px !important;
+  font-size: 96px;
 }
 
 h2 {
-  font-size: 48px !important;
+  font-size: 48px;
 }
 
 h3 {
-  font-size: 24px !important;
+  font-size: 24px;
   opacity: 0.7;
 }
 p {
@@ -103,4 +103,31 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 2px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
